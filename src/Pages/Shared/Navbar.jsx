@@ -6,15 +6,15 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
     const menu = (
-        <ul className='flex lg:flex-row flex-col lg:gap-8 gap-3'>
-            <Link to='/'><li>Home</li></Link>
-            <Link><li>Dashboard</li></Link>
-            <Link><li>NFT</li></Link>
-            <Link><li>Earn</li></Link>
-            <Link><li>Buy</li></Link>
-            <Link><li>Referrals</li></Link>
-            <Link><li>Ecosystem</li></Link>
-            <Link><li>About</li></Link>
+        <ul className='flex lg:flex-row text-[#787982] flex-col lg:gap-8 gap-3'>
+            <Link className='hover:text-white' to='/'><li>Home</li></Link>
+            <Link className='hover:text-white'><li>Dashboard</li></Link>
+            <Link className='hover:text-white'><li>NFT</li></Link>
+            <Link className='hover:text-white'><li>Earn</li></Link>
+            <Link className='hover:text-white'><li>Buy</li></Link>
+            <Link className='hover:text-white'><li>Referrals</li></Link>
+            <Link className='hover:text-white'><li>Ecosystem</li></Link>
+            <Link className='hover:text-white'><li>About</li></Link>
         </ul>
     )
     return (
