@@ -18,7 +18,7 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <div className='fixed w-full z-10'>
+        <div className='w-full z-10'>
             <div className='bg-[#191919] shadow py-3 lg:py-0'>
                 <div className='w-[97%] mx-auto'>
                     <div className='flex justify-between items-center'>
