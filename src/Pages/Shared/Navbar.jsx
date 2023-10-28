@@ -6,9 +6,9 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
     const menu = (
-        <ul className='flex lg:flex-row text-[#787982] flex-col lg:gap-8 gap-3'>
+        <ul className='flex lg:flex-row text-[#99999B] flex-col lg:gap-8 gap-3'>
             <Link className='hover:text-white' to='/'><li>Home</li></Link>
-            <Link className='hover:text-white'><li>Dashboard</li></Link>
+            <Link className='hover:text-white' to='/dashboard'><li>Dashboard</li></Link>
             <Link className='hover:text-white'><li>NFT</li></Link>
             <Link className='hover:text-white'><li>Earn</li></Link>
             <Link className='hover:text-white'><li>Buy</li></Link>
