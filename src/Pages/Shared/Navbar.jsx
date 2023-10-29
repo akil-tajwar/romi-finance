@@ -10,7 +10,7 @@ const Navbar = () => {
             <Link className='hover:text-white' to='/'><li>Home</li></Link>
             <Link className='hover:text-white' to='/dashboard'><li>Dashboard</li></Link>
             <Link className='hover:text-white'><li>NFT</li></Link>
-            <Link className='hover:text-white'><li>Earn</li></Link>
+            <Link className='hover:text-white' to='/earn'><li>Earn</li></Link>
             <Link className='hover:text-white'><li>Buy</li></Link>
             <Link className='hover:text-white'><li>Referrals</li></Link>
             <Link className='hover:text-white'><li>Ecosystem</li></Link>
