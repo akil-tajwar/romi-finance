@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
     const menu = (
-        <ul className='flex lg:flex-row text-[#99999B] flex-col lg:gap-8 gap-3'>
+        <ul className='flex lg:flex-row text-[#99999B] flex-col gap-8'>
             <Link className='hover:text-white' to='/'><li>Home</li></Link>
             <Link className='hover:text-white' to='/dashboard'><li>Dashboard</li></Link>
             <Link className='hover:text-white'><li>NFT</li></Link>
@@ -15,6 +15,7 @@ const Navbar = () => {
             <Link className='hover:text-white'><li>Referrals</li></Link>
             <Link className='hover:text-white'><li>Ecosystem</li></Link>
             <Link className='hover:text-white'><li>About</li></Link>
+            <Link className='hover:text-white lg:hidden block'><li>Setting</li></Link>
         </ul>
     )
     return (
@@ -28,13 +29,19 @@ const Navbar = () => {
                                     <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                                     <div className="drawer-content">
                                         <label htmlFor="my-drawer" className="drawer-button">
-                                            <GiHamburgerMenu/>
+                                            <GiHamburgerMenu />
                                         </label>
                                     </div>
                                     <div className="drawer-side">
                                         <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                                        <ul className="menu w-64 min-h-full bg-base-200 text-base-content">
-                                            {menu}
+                                        <ul className="menu w-64 min-h-full backdrop-blur-lg shadow">
+                                            <div className='flex items-center pb-8'>
+                                                <img className='lg:w-14 w-8' src="New Logo.png" alt="" />
+                                                <p className="lg:text-2xl text-sm font-semibold">Romi.Finance</p>
+                                            </div>
+                                            <div className='pl-2'>
+                                                {menu}
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>

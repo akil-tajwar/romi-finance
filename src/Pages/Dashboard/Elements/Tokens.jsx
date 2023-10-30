@@ -29,9 +29,19 @@ const Tokens = () => {
                             </div>
                             <details className="dropdown">
                                 <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                                <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                    <li><a>Item 1</a></li>
-                                    <li><a>Item 2</a></li>
+                                <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
                                 </ul>
                             </details>
                         </div>
@@ -93,9 +103,19 @@ const Tokens = () => {
                             </div>
                             <details className="dropdown">
                                 <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                                <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                    <li><a>Item 1</a></li>
-                                    <li><a>Item 2</a></li>
+                                <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
                                 </ul>
                             </details>
                         </div>
@@ -166,7 +186,7 @@ const Tokens = () => {
                                 <td className='text-[#B8B8B8]'>PRICE</td>
                                 <td className='text-[#B8B8B8]'>POOL</td>
                                 <td className='text-[#B8B8B8]'>WEIGHT</td>
-                                <td className='text-right text-[#B8B8B8]'>Utilization</td>
+                                <td className='text-right text-[#B8B8B8]'>UTILIZATION</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -181,9 +201,19 @@ const Tokens = () => {
                                         </div>
                                         <details className="dropdown">
                                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                                <li><a>Item 1</a></li>
-                                                <li><a>Item 2</a></li>
+                                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                                <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                                    <a className='flex gap-2'>
+                                                        <img src="coingecko.svg" alt="" />
+                                                        <p>Open in Coingecko</p>
+                                                    </a>
+                                                </li>
+                                                <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                                    <a className='flex gap-2'>
+                                                        <img className='w-4' src="icon.svg" alt="" />
+                                                        <p>Open in Explorer</p>
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </details>
                                     </div>
@@ -204,10 +234,20 @@ const Tokens = () => {
                                         </div>
                                         <details className="dropdown">
                                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                                <li><a>Item 1</a></li>
-                                                <li><a>Item 2</a></li>
-                                            </ul>
+                                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                                         </details>
                                     </div>
                                 </td>
@@ -227,10 +267,20 @@ const Tokens = () => {
                                         </div>
                                         <details className="dropdown">
                                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                                <li><a>Item 1</a></li>
-                                                <li><a>Item 2</a></li>
-                                            </ul>
+                                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                                         </details>
                                     </div>
                                 </td>
@@ -249,10 +299,20 @@ const Tokens = () => {
                                         </div>
                                         <details className="dropdown">
                                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                                <li><a>Item 1</a></li>
-                                                <li><a>Item 2</a></li>
-                                            </ul>
+                                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                                         </details>
                                     </div>
                                 </td>
@@ -272,10 +332,20 @@ const Tokens = () => {
                         <h4 className='text-lg'>ETH</h4>
                         <details className="dropdown">
                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 2</a></li>
-                            </ul>
+                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                         </details>
                     </div>
                     <div className='p-3'>
@@ -303,10 +373,20 @@ const Tokens = () => {
                         <h4 className='text-lg'>WBTC</h4>
                         <details className="dropdown">
                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 2</a></li>
-                            </ul>
+                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                         </details>
                     </div>
                     <div className='p-3'>
@@ -334,10 +414,20 @@ const Tokens = () => {
                         <h4 className='text-lg'>APE</h4>
                         <details className="dropdown">
                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 2</a></li>
-                            </ul>
+                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                         </details>
                     </div>
                     <div className='p-3'>
@@ -365,10 +455,20 @@ const Tokens = () => {
                         <h4 className='text-lg'>USDC</h4>
                         <details className="dropdown">
                             <summary className="m-1 cursor-pointer text-[#99999B] hover:text-white"></summary>
-                            <ul className="p-2 menu dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
-                                <li><a>Item 1</a></li>
-                                <li><a>Item 2</a></li>
-                            </ul>
+                            <ul className="dropdown-content z-[1] bg-[#191919] border border-[#3E3E3E] rounded w-52">
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img src="coingecko.svg" alt="" />
+                                            <p>Open in Coingecko</p>
+                                        </a>
+                                    </li>
+                                    <li className='hover:bg-[#2e2e2e] p-2 cursor-pointer'>
+                                        <a className='flex gap-2'>
+                                            <img className='w-4' src="icon.svg" alt="" />
+                                            <p>Open in Explorer</p>
+                                        </a>
+                                    </li>
+                                </ul>
                         </details>
                     </div>
                     <div className='p-3'>
