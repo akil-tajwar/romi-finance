@@ -3,19 +3,21 @@ import { Link } from 'react-router-dom';
 import { LuWallet2 } from 'react-icons/lu';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import ActiveLink from './ActiveLink';
 
 const Navbar = () => {
     const menu = (
+        // I have ONLY WORKED ON HOME, DASHBOARD AND EARN PAGE. SO THE OTHER PAGES WON'T WORK.
         <ul className='flex lg:flex-row text-[#99999B] flex-col gap-8'>
-            <Link className='hover:text-white' to='/'><li>Home</li></Link>
-            <Link className='hover:text-white' to='/dashboard'><li>Dashboard</li></Link>
-            <Link className='hover:text-white'><li>NFT</li></Link>
-            <Link className='hover:text-white' to='/earn'><li>Earn</li></Link>
-            <Link className='hover:text-white'><li>Buy</li></Link>
-            <Link className='hover:text-white'><li>Referrals</li></Link>
-            <Link className='hover:text-white'><li>Ecosystem</li></Link>
-            <Link className='hover:text-white'><li>About</li></Link>
-            <Link className='hover:text-white lg:hidden block'><li>Setting</li></Link>
+            <ActiveLink to='/'><li>Home</li></ActiveLink>
+            <ActiveLink to='/dashboard'><li>Dashboard</li></ActiveLink>
+            <ActiveLink to='/nft'><li>NFT</li></ActiveLink>
+            <ActiveLink to='/earn'><li>Earn</li></ActiveLink>
+            <ActiveLink to='/buy'><li>Buy</li></ActiveLink>
+            <ActiveLink to='/referrals'><li>Referrals</li></ActiveLink>
+            <ActiveLink to='/ecosystem'><li>Ecosystem</li></ActiveLink>
+            <ActiveLink to='/about'><li>About</li></ActiveLink>
+            <ActiveLink to='/setting'><li className='lg:hidden block'>Setting</li></ActiveLink>
         </ul>
     )
     return (
