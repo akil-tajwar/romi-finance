@@ -4,7 +4,7 @@ const Tokens = () => {
     return (
         <div className='lg:w-[65%] w-11/12 mx-auto pb-20'>
             <h2 className='text-4xl lg:w-1/4 w-3/4 font-semibold mb-6'>Two tokens create our ecosystem</h2>
-            <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>
                 <div className='border border-[#3E3E3E] bg-[#151515] cursor-pointer shadow p-5 rounded-lg'>
                     <div className='flex gap-2 items-center'>
                         <img className='w-10' src="zomi.png" alt="" />
