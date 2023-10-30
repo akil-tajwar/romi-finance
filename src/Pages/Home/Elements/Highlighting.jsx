@@ -3,7 +3,7 @@ import React from 'react';
 const Highlighting = () => {
     return (
         <div className='border-t border-[#C8C8C8]'>
-            <div className='w-[65%] mx-auto grid grid-cols-3 gap-20 py-20'>
+            <div className='lg:w-[65%] w-11/12 mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20 py-20'>
                 <div>
                     <div className='flex gap-3 pb-3'>
                         <img src="water.svg" alt="" />

@@ -12,15 +12,15 @@ const Tokens = () => {
     ];
     const COLORS = ['#5C0AF5', '#0598FA'];
     return (
-        <div className='w-[65%] mx-auto pt-10 pb-16'>
+        <div className='lg:w-[65%] w-11/12 mx-auto pt-10 pb-16'>
             <div className='flex gap-2 pb-3'>
                 <h2 className='text-4xl font-semibold'>Tokens</h2>
                 <img src="icon.svg" alt="" />
             </div>
             <p className='text-[#B8B8B8]'>Platform and $ZLP index tokens.</p>
-            <div className='grid grid-cols-2 gap-4 mt-8'>
-                <div className='bg-[#151515] border grid grid-cols-3 gap-4 border-[#3E3E3E] rounded'>
-                    <div className='col-span-2'>
+            <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 mt-8'>
+                <div className='bg-[#151515] border grid md:grid-cols-3 grid-cols-1 gap-4 border-[#3E3E3E] rounded'>
+                    <div className='md:col-span-2'>
                         <div className='flex gap-2 items-center border-b border-[#3E3E3E] pl-3 py-3'>
                             <img className='w-10' src="zomi.png" alt="" />
                             <div>
@@ -93,8 +93,8 @@ const Tokens = () => {
                         </ResponsiveContainer>
                     </div>
                 </div>
-                <div className='bg-[#151515] grid grid-cols-3 gap-4 border border-[#3E3E3E] rounded'>
-                    <div className='col-span-2'>
+                <div className='bg-[#151515] grid md:grid-cols-3 grid-cols-1 gap-4 border border-[#3E3E3E] rounded'>
+                    <div className='md:col-span-2'>
                         <div className='flex gap-2 items-center border-b border-[#3E3E3E] pl-3 py-3'>
                             <img className='w-10' src="zlp.png" alt="" />
                             <div>

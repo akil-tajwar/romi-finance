@@ -19,10 +19,10 @@ const Navbar = () => {
         </ul>
     )
     return (
-        <div className='w-full z-10'>
+        <div className='w-full'>
             <div className='bg-[#191919] shadow py-3 lg:py-0'>
-                <div className='w-[97%] mx-auto'>
-                    <div className='flex justify-between items-center'>
+                <div className='lg:w-[97%] w-11/12 mx-auto'>
+                    <div className='flex gap-6 justify-between items-center overflow-x-hidden'>
                         <div className='flex items-center'>
                             <div className='flex justify-center items-center'>
                                 <div className="drawer lg:hidden block">
@@ -51,11 +51,11 @@ const Navbar = () => {
                         </div>
                         <div className="hidden lg:block">{menu}</div>
                         <div className='flex gap-4'>
-                            <button className='bg-[#3EB489] hover:bg-[#339672] px-4 py-1 rounded'>Trade</button>
+                            <button className='bg-[#3EB489] hover:bg-[#339672] px-4 py-1 rounded break-all'>Trade</button>
                             <div className='border border-[#3E3E3E] cursor-pointer hover:bg-[#2e2e2e] flex gap-2 items-center px-4 py-1 rounded'>
                                 <LuWallet2 />
                                 <p className='hidden lg:block'>Connect Wallet</p>
-                                <p className='lg:hidden block'>Connect</p>
+                                <p className='lg:hidden block break-all'>Connect</p>
                             </div>
                             <div className='border border-[#3E3E3E] cursor-pointer hover:bg-[#2e2e2e] flex gap-2 items-center px-2 py-1 rounded'>
                                 <img className='border-r border-[#3E3E3E] pr-3 w-8' src="Ethereum.svg" alt="" />
